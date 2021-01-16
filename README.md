@@ -1,10 +1,10 @@
-# BinaryFileStructExtractor
+# BinaryFileStructExtractor v.0.1
  Simple tool to parse and extract data from binary files given their structure.
  Nesting of different structures and unknown structure sizes are supported.
 
 Uses collections.OrderedDict, struct.calcsize, struct.unpack
 
-# Generate a parsing bin_struct object:
+# Step 1. Generate a parsing bin_struct object:
 
 bin_struct is a an OrderedDict
 constructed either by a single string argument that gets passed to struct.unpack
